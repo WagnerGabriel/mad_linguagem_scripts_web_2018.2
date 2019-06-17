@@ -1,0 +1,27 @@
+<!---->
+
+
+<img id="lampada" src="imagens/apagada.jpg">
+
+<script>
+document.getElementById("lampada")
+    .addEventListener("click",function(){
+        document.getElementById("lampada")
+            .src="imagens/quebrada.jpg";
+    });
+    document.getElementById("lampada")
+    .addEventListener("mouseenter",function(){
+        document.getElementById("lampada")
+            .src="imagens/acesa.jpg";
+    });
+    document.getElementById("lampada")
+    .addEventListener("mouseleave",function(){
+        document.getElementById("lampada")
+            .src="imagens/apagada.jpg";
+    });
+    document.getElementById("lampada")
+    .addEventListener("dblclick",function(){
+        document.getElementById("lampada")
+            .src="imagens/apagada.jpg";
+    });
+    </script>
